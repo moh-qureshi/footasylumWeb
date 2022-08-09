@@ -127,7 +127,7 @@ nav{
 
 #just-landed-dropdown, #sale-dropdown, #outlet-dropdown, #men-dropdown, #women-dropdown, #kids-dropdown{
     display: none;
-    background-color: aquamarine;
+    background-color: #ebebeb;
     height: 0px;
     visibility: collapse;
     position: relative;
@@ -176,7 +176,7 @@ nav{
 
 #brands-section-two{
     width: 100%;
-    background-color: aquamarine;
+    background-color: #ebebeb;
 }
 
 .dropdown-links, .dropdown-links a{
