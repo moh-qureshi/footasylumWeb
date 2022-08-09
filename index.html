@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Footasylum</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fd19a96ad8.js" crossorigin="anonymous"></script>
+    </head>
+    <header id="header">
+        <div id="header-section">
+            <img src="/images/footasylym_logo_dark.png" id="footasylum-header-logo">
+            <div id="search-section">
+                <input type="search" placeholder="Search..." id="search-box" oninput="displaySearchButton()">
+                <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <ul id="header-links">
+                <li><a href="#">Help & FAQs</a></li>
+                <li><a href="#">Sign in | Register</a></li>
+                <li><a href="#">Find a store</a></li>
+                <li><a href="#">GBP</a></li>
+            </ul>
+            <i class="fa-regular fa-heart header-icon"></i>
+            <div id="view-basket">
+                <i class="fa-solid fa-bag-shopping header-icon"></i>
+                View bag
+            </div>
+        </div>
+    </header>
+    <nav onmouseover="navbarHover()">
+        <ul id="nav-links">
+            <li><a href="#" id="just-landed" class="link">Just Landed</a></li>
+            <li><a href="#" id="sale" class="link">SALE</a></li>
+            <li><a href="#" id="outlet" class="link">Outlet</a></li>
+            <li><a href="#" id="the-lowdown" class="link">The Lowdown</a></li>
+            <li><a href="#" id="men" class="link">Men</a></li>
+            <li><a href="#" id="women" class="link">Women</a></li>
+            <li><a href="#" id="kids" class="link">Kids</a></li>
+            <li><a href="#" id="brands" class="link">Brands</a></li>
+            <li><a href="#" id="launches" class="link">Launches</a></li>
+        </ul>
+    </nav>
+    <div id="sub-nav">
+        <div>
+            <p><span>NHS Get 10% Off </span>with Blue Light Card</p>
+        </div>
+        <div>
+            <p><span>Students Get 10% Off </span>with UNIDAYS</p>
+        </div>
+        <div>
+            <p><span>Free Standard UK Delivery </span>on Orders Over £49</p>
+        </div>
+    </div>
+    <div id="just-landed-dropdown">
+        <div id="just-landed-sections">
+            <div id="just-landed-section-one">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">New Mens</a></li>
+                    <li><a href="#">New Men's Footwear</a></li>
+                    <li><a href="#">New Men's Clothing</a></li>
+                    <li><a href="#">New Men's Accessories</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="dropdown-section-two">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">New Womens</a></li>
+                    <li><a href="#">New Women's Footwear</a></li>
+                    <li><a href="#">New Women's Clothing</a></li>
+                    <li><a href="#">New Women's Accessories</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="dropdown-section-three">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">New Kids</a></li>
+                    <li><a href="#">New Kids' Footwear</a></li>
+                    <li><a href="#">New Kids' Clothing</a></li>
+                    <li><a href="#">New Kids' Accessories</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown-img" id="just-landed-img">
+            <img src="/images/just-landed-dropdown.PNG" id="just-landed-image">
+            <button class="shop-now-btn">Shop Summer</button>
+        </div>
+    </div>
+    <div id="sale-dropdown">
+        <div id="sale-sections">
+            <div id="sale-section-one">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Accessories Sale</a></li>
+                    <li><a href="#">Men's Accessories Sale</a></li>
+                    <li><a href="#">Women's Accessories Sale</a></li>
+                    <li><a href="#">Kid's Accessories Sale</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="sale-section-two">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Men's Sale</a></li>
+                    <li><a href="#">Men's Footwear</a></li>
+                    <li><a href="#">Men's Clothing</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="sale-section-three">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Women's Sale</a></li>
+                    <li><a href="#">Women's Footwear</a></li>
+                    <li><a href="#">Women's Clothing</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="sale-section-four">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Kid's Sale</a></li>
+                    <li><a href="#">Junior Footwear Sale</a></li>
+                    <li><a href="#">Junior Clothing Sale</a></li>
+                    <li><a href="#">Nursery Footwear Sale</a></li>
+                    <li><a href="#">Nursery Clothing Sale</a></li>
+                    <li><a href="#">Infant Footwear Sale</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown-img" id="sale-img">
+            <div id="sale-img-section">
+                <div>
+                    <h1 class="sale-text" id="sale-title">Latest Offers</h1>
+                    <h1 class="sale-text" id="sale-heading">Up To 60% Off!</h1>
+                    <p id="sale-subtext">Shop Discounts On The Biggest Brands Now ></p>
+                </div>
+            </div>
+            <button class="shop-now-btn" id="sale-btn">Shop Now</button>
+        </div>
+    </div>
+    <div id="outlet-dropdown">
+        <div id="outlet-sections">
+            <div id="outlet-section-one">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Outlet New Arrivals</a></li>
+                    <li><a href="#">Men's Outlet New Arrivals</a></li>
+                    <li><a href="#">Women's Outlet New Arrivals</a></li>
+                    <li><a href="#">Kid's Outlet New Arrivals</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="outlet-section-two">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Men's Outlet</a></li>
+                    <li><a href="#">Men's Outlet Clothing</a></li>
+                    <li><a href="#">Men's Outlet Footwear</a></li>
+                    <li><a href="#">Men's Outlet Accessories</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="outlet-section-three">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Women's Outlet</a></li>
+                    <li><a href="#">Women's Outlet Clothing</a></li>
+                    <li><a href="#">Women's Outlet Footwear</a></li>
+                    <li><a href="#">Women's Outlet Accessories</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="outlet-section-four">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Kid's Outlet</a></li>
+                        <li><a href="#">Kid's Outlet Clothing</a></li>
+                    <li><a href="#">Kid's Outlet Footwear</a></li>
+                    <li><a href="#">Kid's Outlet Accessories</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown-img" id="outlet-img">
+            <img src="/images/outlet-drop-down.PNG" id="outlet-image">
+            <button class="shop-now-btn" id="outlet-btn">Shop Now</button>
+        </div>
+    </div>
+    <div id="men-dropdown">
+        <div id="men-sections">
+            <div id="men-section-one">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Men's Footwear</a></li>
+                    <li><a href="#">Trainers</a></li>
+                    <li><a href="#">Slides & Sandals</a></li>
+                    <li><a href="#">Boots</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Slippers</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="men-section-two">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Men's Clothing</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Swim Shorts</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Jog & Track Pants</a></li>
+                    <li><a href="#">Quarter Zips</a></li>
+                    <li><a href="#">Woven Pants</a></li>
+                    <li><a href="#">Tracksuits</a></li>
+                    <li><a href="#">Loungewear</a></li>
+                    <li><a href="#">Jackets & Coats</a></li>
+                    <li><a href="#">Sweatshirts</a></li>
+                    <li><a href="#">Denim Jeans</a></li>
+                    <li><a href="#">Gilets</a></li>
+                    <li><a href="#">Track Tops</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="men-section-three">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Men's Accessories</a></li>
+                    <li><a href="#">Underwear & Socks</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Caps & Hats</a></li>
+                    <li><a href="#">Gloves</a></li>
+                    <li><a href="#">Scarves</a></li>
+                    <li><a href="#">Product Care</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Jewellery</a></li>
+                    <li><a href="#">Belts</a></li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Water Bottles</a></li>
+                    <li><a href="#">Basketballs</a></li>
+                    <li><a href="#">Shoelaces</a></li>
+                    <li><a href="#">Wallets</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="men-section-four">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Collections</a></li>
+                    <li><a href="#">Nike Air Force</a></li>
+                    <li><a href="#">Nike Vapormax</a></li>
+                    <li><a href="#">Nike Balance 327</a></li>
+                    <li><a href="#">Nike Tech Fleece</a></li>
+                    <li><a href="#">Nike Club Fleece</a></li>
+                    <li><a href="#">Nike Air Max</a></li>
+                    <li><a href="#">Nike Air Max 90</a></li>
+                    <li><a href="#">Nike Air Max 95</a></li>
+                    <li><a href="#">Nike Air Max 270</a></li>
+                    <li><a href="#">Jordan Max Aura</a></li>
+                    <li><a href="#">Nike Dunk</a></li>
+                    <li><a href="#">Adidas Ozweego</a></li>
+                    <li><a href="#">Adidas Gazelle</a></li>
+                    <li><a href="#">Terrace</a></li>
+                    <li><a href="#">Nike React</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="men-section-five">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Featured</a></li>
+                    <li><a href="#">Summer Shop</a></li>
+                    <li><a href="#">Festival Fits</a></li>
+                    <li><a href="#">Shorts Sets</a></li>
+                    <li><a href="#">All White Trainers</a></li>
+                    <li><a href="#">T-Shirts & Shorts</a></li>
+                    <li><a href="#">Airport Outfits</a></li>
+                    <li><a href="#">Stay Active</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Tech Sport</a></li>
+                    <li><a href="#">All Black Footwear</a></li>
+                    <li><a href="#">Sustainable Collection</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown-img" id="men-img">
+            <img src="/images/men-dropdown.PNG" id="men-image">
+            <button class="shop-now-btn" id="men-btn">Shop Now</button>
+        </div>
+    </div>
+    <div id="women-dropdown">
+        <div id="women-sections">
+            <div id="women-section-one">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Women's Footwear</a></li>
+                    <li><a href="#">Trainers</a></li>
+                    <li><a href="#">Slides & Sandals</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Boots</a></li>
+                    <li><a href="#">Slippers</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="women-section-two">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Women's Clothing</a></li>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Leggings</a></li>
+                    <li><a href="#">Gym Wear</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Jog & Track Pants</a></li>
+                    <li><a href="#">Cargo Pants</a></li>
+                    <li><a href="#">Sweatshirts</a></li>
+                    <li><a href="#">Jackets & Coats</a></li>
+                    <li><a href="#">Gilets</a></li>
+                    <li><a href="#">Tracksuits</a></li>
+                    <li><a href="#">Denim Jeans</a></li>
+                    <li><a href="#">Basics</a></li>
+                    <li><a href="#">Dresses</a></li>
+                    <li><a href="#">Skirts</a></li>
+                    <li><a href="#">Loungewear</a></li>
+                    <li><a href="#">Swimwear</a></li>
+                    <li><a href="#">Playsuits & Jumpsuits</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="women-section-three">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Women's Accessories</a></li>
+                    <li><a href="#">Underwear & Socks</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Caps & Hats</a></li>
+                    <li><a href="#">Gloves & Scarves</a></li>
+                    <li><a href="#">Product Care</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Water Bottles</a></li>
+                    <li><a href="#">Shoelaces</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="women-section-four">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Collections</a></li>
+                    <li><a href="#">New Balance 327</a></li>
+                    <li><a href="#">Converse Chuck Taylor All Star</a></li>
+                    <li><a href="#">Forena</a></li>
+                    <li><a href="#">Ugg</a></li>
+                    <li><a href="#">Adidas Ozweego</a></li>
+                    <li><a href="#">Adidas Hyperglam</a></li>
+                    <li><a href="#">Nike Air Force</a></li>
+                    <li><a href="#">Nike Air Max 270</a></li>
+                    <li><a href="#">Nike Vapormax</a></li>
+                    <li><a href="#">Nike Air Max</a></li>
+                    <li><a href="#">Vans Old Skool</a></li>
+                    <li><a href="#">Nike Club Essentials</a></li>
+                    <li><a href="#">Zavetti Canada Coats</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="women-section-five">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Featured</a></li>
+                    <li><a href="#">Summer Shop</a></li>
+                    <li><a href="#">Festival Fits</a></li>
+                    <li><a href="#">Shorts Sets</a></li>
+                    <li><a href="#">All White Trainers</a></li>
+                    <li><a href="#">T-Shirts & Shorts</a></li>
+                    <li><a href="#">Airport Outfits</a></li>
+                    <li><a href="#">Quater Zips</a></li>
+                    <li><a href="#">Neutrals Collection</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">All Black Footwear</a></li>
+                    <li><a href="#">Sustainable Collection</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown-img" id="women-img">
+            <img src="/images/women-dropdown.PNG" id="women-image">
+            <button class="shop-now-btn" id="women-btn">Shop Now</button>
+        </div>
+    </div>
+    <div id="kids-dropdown">
+        <div id="kids-sections">
+            <div id="kids-section-one">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Kids's Footwear</a></li>
+                    <li><a href="#">Junior (Sizes 3 - 6.5)</a></li>
+                    <li><a href="#">Infant (Sizes 10 - 2)</a></li>
+                    <li><a href="#">Nursery (Sizes 3 - 9)</a></li>
+                    <li><a href="#">Crib (Sizes 0 - 3)</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="kids-section-two">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Junior Clothing</a></li>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Swim Shorts</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Jog & Track Pants</a></li>
+                    <li><a href="#">Woven Pants</a></li>
+                    <li><a href="#">Tracksuits</a></li>
+                    <li><a href="#">Jackets & Coats</a></li>
+                    <li><a href="#">Loungewear</a></li>
+                    <li><a href="#">Sweatshirts</a></li>
+                    <li><a href="#">Gilets</a></li>
+                    <li><a href="#">Track Tops</a></li>
+                    <li><a href="#">Fleeces</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="kids-section-three">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Nursery Clothing</a></li>
+                    <li><a href="#">Jackets & Coats</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Tracksuits</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="kids-section-four">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Collections</a></li>
+                    <li><a href="#">Nike Air Force</a></li>
+                    <li><a href="#">Nike Air Max</a></li>
+                    <li><a href="#">Nike Air Max 270</a></li>
+                    <li><a href="#">Nike Air Max 90</a></li>
+                    <li><a href="#">Nike Club Fleece</a></li>
+                    <li><a href="#">Nike Tech Fleece</a></li>
+                    <li><a href="#">New Balance 327</a></li>
+                    <li><a href="#">Jordan Max Aura</a></li>
+                    <li><a href="#">Jordan 1</a></li>
+                    <li><a href="#">Nike Huarache</a></li>
+                    <li><a href="#">Adidas Ozweego</a></li>
+                    <li><a href="#">Adidas Gazelle</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="kids-section-five">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Kid's Featured</a></li>
+                    <li><a href="#">Summer Shop</a></li>
+                    <li><a href="#">Shorts Sets</a></li>
+                    <li><a href="#">All White Trainers</a></li>
+                    <li><a href="#">T-Shirts & Shorts</a></li>
+                    <li><a href="#">Airport Outfits</a></li>
+                    <li><a href="#">Back To School</a></li>
+                    <li><a href="#">School Bags</a></li>
+                    <li><a href="#">School Jackets</a></li>
+                    <li><a href="#">School Trainers</a></li>
+                    <li><a href="#">All Black Footwear</a></li>
+                    <li><a href="#">Tech Sport</a></li>
+                    <li><a href="#">Sustainable Collection</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+            <div id="kids-section-six">
+                <ul class="dropdown-links">
+                    <li class="dropdown-link-title"><a href="#">Kid's Accessories</a></li>
+                    <li><a href="#">Underwear & Socks</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Caps & Hats</a></li>
+                    <li><a href="#">Water Bottles</a></li>
+                    <li><a href="#">Basketballs</a></li>
+                    <li><a href="#">Baby Accessories</a></li>
+                    <li class="dropdown-view-all"><a href="#">View All</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown-img" id="kids-img">
+            <img src="/images/kids-dropdown.PNG" id="kids-image">
+            <button class="shop-now-btn" id="kids-btn">Shop Now</button>
+        </div>
+    </div>
+    <div id="brands-dropdown">
+        <div id="brands-sections">
+            <div id="brands-section-one">
+                <div id="brands-section-one-content">
+                <div id="alphabet">
+                    <h1>A-Z Brands </h1>
+                    <div class="row row-one">
+                        <button class="alphabet-btn" id="a-btn">A</button>
+                        <button class="alphabet-btn" id="b-btn">B</button>
+                        <button class="alphabet-btn" id="c-btn">C</button>
+                        <button class="alphabet-btn" id="d-btn">D</button>
+                        <button class="alphabet-btn" id="e-btn">E</button>
+                        <button class="alphabet-btn" id="f-btn">F</button>
+                        <button class="alphabet-btn" id="g-btn">G</button>
+                    </div>
+                    <div class="row row-two">
+                        <button class="alphabet-btn" id="h-btn">H</button>
+                        <button class="alphabet-btn" id="i-btn">I</button>
+                        <button class="alphabet-btn" id="j-btn">J</button>
+                        <button class="alphabet-btn" id="k-btn">K</button>
+                        <button class="alphabet-btn" id="l-btn">L</button>
+                        <button class="alphabet-btn" id="m-btn">M</button>
+                        <button class="alphabet-btn" id="n-btn">N</button>
+                    </div>
+                    <div class="row row-three">
+                        <button class="alphabet-btn" id="o-btn">O</button>
+                        <button class="alphabet-btn" id="p-btn">P</button>
+                        <button class="alphabet-btn" id="q-btn">Q</button>
+                        <button class="alphabet-btn" id="r-btn">R</button>
+                        <button class="alphabet-btn" id="s-btn">S</button>
+                        <button class="alphabet-btn" id="t-btn">T</button>
+                        <button class="alphabet-btn" id="u-btn">U</button>
+                    </div>
+                    <div class="row row-four">
+                        <button class="alphabet-btn" id="v-btn">V</button>
+                        <button class="alphabet-btn" id="w-btn">W</button>
+                        <button class="alphabet-btn" id="x-btn">X</button>
+                        <button class="alphabet-btn" id="y-btn">Y</button>
+                        <button class="alphabet-btn" id="z-btn">Z</button>
+                    </div>
+                </div>
+                <div class="brands-list" id="a-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Adapt To</a></li>
+                        <li><a href="#">Adidas</a></li>
+                        <li><a href="#">Adidas Originals</a></li>
+                        <li><a href="#">Alessandro Zavetti</a></li>
+                        <li><a href="#">Alphalab</a></li>
+                        <li><a href="#">Amicci</a></li>
+                        <li><a href="#">Amity London</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Antony Morato</a></li>
+                        <li><a href="#">APT Jeans</a></li>
+                        <li><a href="#">Asics</a></li>
+                        <li><a href="#">Asylum</a></li>
+                        <li><a href="#">Avant Garde</a></li>
+                        <li><a href="#">Avenzi</a></li>
+                        <li><a href="#">Awaken The Rose</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="b-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">B Couture London</a></li>
+                        <li><a href="#">BADR</a></li>
+                        <li><a href="#">Belvotti</a></li>
+                        <li><a href="#">Bench</a></li>
+                        <li><a href="#">Berghaus</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Birkenstock</a></li>
+                        <li><a href="#">BOSS</a></li>
+                        <li><a href="#">Brave Soul</a></li>
+                        <li><a href="#">Buffalo</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="c-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Calvin Klein</a></li>
+                        <li><a href="#">Calvin Klein Jeans</a></li>
+                        <li><a href="#">Calvin Klein Performance</a></li>
+                        <li><a href="#">Calvin Klein Swim</a></li>
+                        <li><a href="#">Celebre Paris</a></li>
+                        <li><a href="#">Champion</a></li>
+                        <li><a href="#">Closure London</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Commun Culture</a></li>
+                        <li><a href="#">Condemned Nation</a></li>
+                        <li><a href="#">Converse</a></li>
+                        <li><a href="#">Crep</a></li>
+                        <li><a href="#">Crocs</a></li>
+                        <li><a href="#">Cruyff</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="d-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Daisy Street</a></li>
+                        <li><a href="#">Delave</a></li>
+                        <li><a href="#">DFND London</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">DFNS</a></li>
+                        <li><a href="#">Dr. Martens</a></li>
+                        <li><a href="#">Dripmade</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="e-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">EA7</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="f-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Farah</a></li>
+                        <li><a href="#">Footasylum</a></li>
+                        <li><a href="#">Forena</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">French Connection</a></li>
+                        <li><a href="#">Fullypaid</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="g-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Gabicci</a></li>
+                        <li><a href="#">Garmin</a></li>
+                        <li><a href="#">Glorious Gangsta</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Good For Nothing</a></li>
+                        <li><a href="#">Guess</a></li>
+                        <li><a href="#">Gym King</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="h-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Havainas</a></li>
+                        <li><a href="#">Hoodrich</a></li>
+                        <li><a href="#">Hummel</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="i-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Igor</a></li>
+                        <li><a href="#">IL Sarto</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="j-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Jack & Jones</a></li>
+                        <li><a href="#">Jordan</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="k-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Kaltur</a></li>
+                        <li><a href="#">Kickers</a></li>
+                        <li><a href="#">Kings Will Dream</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="l-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Lacoste</a></li>
+                        <li><a href="#">Levi's</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Lorenzo Veratti</a></li>
+                        <li><a href="#">Lyle & Scott</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="m-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Mercedes</a></li>
+                        <li><a href="#">Mercier</a></li>
+                        <li><a href="#">Metissier Paris</a></li>
+                        <li><a href="#">Missy Empire</a></li>
+                        <li><a href="#">Missy Sport</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Mitchell and Ness</a></li>
+                        <li><a href="#">Money Clothing</a></li>
+                        <li><a href="#">Monterrain</a></li>
+                        <li><a href="#">Montirex</a></li>
+                        <li><a href="#">Mountain Elite</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="n-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">New Balance</a></li>
+                        <li><a href="#">New Era</a></li>
+                        <li><a href="#">Nicce</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Nike</a></li>
+                        <li><a href="#">Nike Swim</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="o-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">ODLO</a></li>
+                        <li><a href="#">ODolls Sport</a></li>
+                        <li><a href="#">OKAMI</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">On</a></li>
+                        <li><a href="#">Original Penguin</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="p-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Polo Ralph Lauren</a></li>
+                        <li><a href="#">Pre London</a></li>
+                        <li><a href="#">Puma</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="q-brands">
+                    <ul class="brands-text">
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="r-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Risk and Reward</a></li>
+                        <li><a href="#">Rascal</a></li>
+                        <li><a href="#">Reebok</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="s-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Salomon</a></li>
+                        <li><a href="#">Sik Silk</a></li>
+                        <li><a href="#">Sustainable Essentials</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="t-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Teva</a></li>
+                        <li><a href="#">The Couture Club</a></li>
+                        <li><a href="#">The North Face</a></li>
+                        <li><a href="#">Timberland</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Tommy Hilfiger</a></li>
+                        <li><a href="#">Tommy Hilfiger Swim</a></li>
+                        <li><a href="#">Tommy Jeans</a></li>
+                        <li><a href="#">Tommy Sport</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="u-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">U.S.A</a></li>
+                        <li><a href="#">UCLA</a></li>
+                    </ul>
+                    <ul class="brands-text">
+                        <li><a href="#">Ugg</a></li>
+                        <li><a href="#">Under Armour</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="v-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Vans</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="w-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">White Threads</a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="x-brands">
+                    <ul class="brands-text">
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="y-brands">
+                    <ul class="brands-text">
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="brands-list" id="z-brands">
+                    <ul class="brands-text">
+                        <li><a href="#">Zavetti Canada</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div id="brands-section-two">
+                <div id="brands-section-two-content">
+                <div id="brands-logo-slider">
+                    <div>
+                        <img src="/images/nike-brand-logo.PNG" alt="nike" class="brand-slider-img">
+                        <p class="brands-logo-title">Nike</p>    
+                    </div>
+                    <div>
+                        <img src="/images/addidas-brand-logo.PNG" alt="adidas" class="brand-slider-img">
+                        <p class="brands-logo-title">Adidas</p>
+                    </div>
+                    <div>
+                        <img src="/images/converse-brand-logo.PNG" alt="converse" class="brand-slider-img">
+                        <p class="brands-logo-title">Converse</p>
+                    </div>
+                    <div>
+                        <img src="/images/northface-brand-logo.PNG" alt="North Face" class="brand-slider-img">
+                        <p class="brands-logo-title">North Face</p>
+                    </div>
+                    <div>
+                        <img src="/images/jordan-brand-logo.PNG" alt="Jordan" class="brand-slider-img">
+                        <p class="brands-logo-title">Jordan</p>
+                    </div>
+                    <div>
+                        <img src="/images/hoodrich-brand-logo.PNG" alt="Hoodrich" class="brand-slider-img">
+                        <p class="brands-logo-title">Hoodrich</p>
+                    </div>
+                    <div>
+                        <img src="/images/underarmour-brand-logo.PNG" alt="Under Armour" class="brand-slider-img">
+                        <p class="brands-logo-title">Under Armour</p>
+                    </div>
+                    <div>
+                        <img src="/images/kickers-brand-logo.PNG" alt="Kickers" class="brand-slider-img">
+                        <p class="brands-logo-title">Kickes</p>
+                    </div>
+                    <div>
+                        <img src="/images/newbalance-brand-logo.PNG" alt="New Balance" class="brand-slider-img">
+                        <p class="brands-logo-title">New Balance</p>
+                    </div>
+                    <div>
+                        <img src="/images/crocs-brand-logo.PNG" alt="Crocs" class="brand-slider-img">
+                        <p class="brands-logo-title">Crocs</p>
+                    </div>
+                    <div>
+                        <img src="/images/monterrain-brand-logo.PNG" alt="Monterrain" class="brand-slider-img">
+                        <p class="brands-logo-title">Monterrain</p>
+                    </div>
+                    <div>
+                        <img src="/images/zavetti-brand-logo.PNG" alt="Zavetti" class="brand-slider-img">
+                        <p class="brands-logo-title">Zavetti</p>
+                    </div>
+                </div>
+                <div id="brands-logo-scroller">
+                    <button class="scroller-btn" id="scroller-left" onclick="scrolledLeft()"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="scroller-btn" id="scroller-right" onclick="scrolledRight()"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <button id="all-brands-btn">View All Brands</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <section id="cards-section">
+        <div class="cards">
+            <img src="/images/back-to-school.png" alt="Back To School">
+            <p>Back To School</p>
+        </div>
+        <div class="cards">
+            <img src="/images/adidas-sub-section.png" alt="Adidas">
+            <p>Adidas</p>
+        </div>
+        <div class="cards">
+            <img src="/images/just-landed-sub-section.png" alt="Just Landed">
+            <p>Just Landed</p>
+        </div>
+        <div class="cards">
+            <img src="/images/summer-sub-section.png" alt="Summer">
+            <p>Summer</p>
+        </div>
+        <div class="cards">
+            <img src="/images/festival-sub-section.png" alt="Festival">
+            <p>Festival</p>
+        </div>
+        <div class="cards">
+            <img src="/images/bad-bistro-sub-section.png" alt="Bad Bistro">
+            <p>As Seen On YouTube</p>
+        </div>
+        <div class="cards">
+            <img src="/images/phone-sub-section.png" alt="Get The App">
+            <p>Get The App</p>
+        </div>
+        <div class="cards">
+            <img src="/images/unltd-sub-section.png" alt="UN-LTD">
+            <p>UN-LTD</p>
+        </div>
+    </section>
+    <section id="discount-section">
+        <div id="discount-text">
+            <h1><span>Next Day Delivery. </span>Use Code <span>'Nextday'</span></h1>
+        </div>
+        <p>Use Code In The Checkout. UK Only.</p>
+    </section>
+    <section id="banner-section">
+        <div class="banner-arrows">
+            <i class="fa-solid fa-angle-left" onclick="bannerSliderLeft()"></i>
+            <i class="fa-solid fa-angle-right" onclick="moveBanner()"></i>
+        </div>
+        <div id="banner-slider">
+            <div class="banner-card">
+                <img src="/images/fashion-banner.jpg" alt="Fashion Banner" class="banner-img">
+                <button class="banner-btn">Shop Now</button>
+            </div>
+            <div class="banner-card">
+                <img src="/images/jackets-banner.jpg" alt="Jackets Banner" class="banner-img">
+                <button class="banner-btn">Shop Now</button>
+            </div>
+            <div class="banner-card">
+                <img src="/images/new-arrivals-banner.jpg" alt="New Arrivals Banner" class="banner-img">
+                <button class="banner-btn">Shop Now</button>
+            </div>
+            <div class="banner-card">
+                <img src="/images/spring-banner.jpg" alt="Spring Banner" class="banner-img">
+                <button class="banner-btn">Shop Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="back-to-school-section">
+        <div class="back-to-school-banner-images">
+            <img src="/images/back-to-school-banner-1.png" alt="Back To School 1">
+            <img src="/images/back-to-school-banner-2.PNG" alt="Back To School 2">
+        </div>
+        <div id="back-to-school-logo">
+            <img src="/images/back-to-school-logo.png" alt="Back To School Logo">
+            <button id="back-to-school-btn">Shop Now</button>
+        </div>
+        <div class="back-to-school-banner-images">
+            <img src="/images/back-to-school-banner-3.PNG" alt="Back To School 3">
+            <img src="/images/back-to-school-banner-4.PNG" alt="Back To School 4">
+        </div>
+    </section>
+    <section id="latest-section">
+        <div id="latest-title">
+            <div id="latest-title-text">
+                <h1>Shop the Latest</h1>
+                <p>Men's, Women's & Kid's</p>
+            </div>
+            <div id="latest-unidays">
+                <h1><span>UNiDAYS </span>Students Get 10% Discount ></h1>
+            </div>
+        </div>
+        <div id="latest-images">
+            <div class="latest-cards">
+                <h1 class="latest-cards-title">Latest Men's</h1>
+                <p>Footwear & Clothing</p>
+                <img src="/images/mens-trainers.png" alt="Men Latest">
+                <button class="latest-cards-btn">Shop Now</button>
+            </div>
+            <div class="latest-cards">
+                <h1 class="latest-cards-title">Latest Women's</h1>
+                <p>Footwear & Clothing</p>
+                <img src="/images/womens-trainers.png" alt="Women's Latest">
+                <button class="latest-cards-btn">Shop Now</button>
+            </div>
+            <div class="latest-cards">
+                <h1 class="latest-cards-title">Latest Kid's</h1>
+                <p>Footwear & Clothing</p>
+                <img src="/images/kids-trainers.png" alt="Kids Latest">
+                <button class="latest-cards-btn">Shop Now</button>
+            </div>
+            <div class="latest-cards">
+                <h1 class="latest-cards-title">Latest Kickers</h1>
+                <p>Footwear & Clothing</p>
+                <img src="/images/kickers-trainers.png" alt="Kickers Latest">
+                <button class="latest-cards-btn">Shop Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="categories-section">
+        <div id="categories-header">
+            <div id="categories-title">
+                <h1>Categories</h1>
+                <p>At Footasylum</p>
+            </div>
+            <div id="categories-chooser">
+                <button class="categories-btn" id="mens-categories-btn">Men's</button>
+                <button class="categories-btn" id="womens-categories-btn">Women's</button>
+                <button class="categories-btn" id="kids-categories-btn">Kid's</button>
+            </div>
+        </div>
+        <div id="categories-cards">
+            <div class="categories-arrows">
+                <i class="fa-solid fa-angle-left" id="categories-left-arrow" onclick="categoriesSliderLeft()"></i>
+                <i class="fa-solid fa-angle-right" id="categories-right-arrow" onclick="categoriesSliderRight()"></i>
+            </div>
+            <div id="mens-categories-cards" class="categories-cards">
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Summer Shop</h1>
+                    <img src="/images/men-summer-shop.PNG" alt="Men's Summer Shop">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">T-Shirts & Shorts</h1>
+                    <img src="/images/men-tshirts-and-shorts.PNG" alt="Men's T-Shirts & Shorts">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Slides</h1>
+                    <img src="/images/men-slides.PNG" alt="Men's Slides">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Swim Shorts</h1>
+                    <img src="/images/men-swimshorts.PNG" alt="Men's Swim Shorts">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">All White Footwear</h1>
+                    <img src="/images/men-all-white-footwear.PNG" alt="Men's All White Footwear">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Festival Shop</h1>
+                    <img src="/images/men-festival-shop.PNG" alt="Men's Festival Shop">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Graphic Tees</h1>
+                    <img src="/images/men-graphic-tees.PNG" alt="Men's Graphic Tees">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Tech Sport</h1>
+                    <img src="/images/men-tech-sport.PNG" alt="Men's Tech Sport">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Accessories</h1>
+                    <img src="/images/men-accessories.PNG" alt="Men's Accessories">
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <div id="womens-categories-cards" class="categories-cards">
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Summer Shop</h1>
+                    <img src="/images/womens-summer-shop.PNG" alt="Women's Summer Shop">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">T-Shirts & Shorts</h1>
+                    <img src="/images/womens-tshirts-and-shorts.PNG" alt="Women's T-Shirts & Shorts">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Slides & Sandals</h1>
+                    <img src="/images/womens-slides-and-sandals.PNG" alt="Women's Slides & Sandals">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Activewear</h1>
+                    <img src="/images/womens-activewear.PNG" alt="Women's Activewear">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">All White Footwear</h1>
+                    <img src="/images/womens-all-white-footwear.PNG" alt="Women's All White Footwear">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Festival Shop</h1>
+                    <img src="/images/womens-festival-shop.PNG" alt="Women's Festival Shop">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Leggings</h1>
+                    <img src="/images/womens-leggings.PNG" alt="Women's Leggings">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Dresses</h1>
+                    <img src="/images/womens-dresses.PNG" alt="Women's Dresses">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Accessories</h1>
+                    <img src="/images/womens-accessories.PNG" alt="Women's Accessories">
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <div id="kids-categories-cards" class="categories-cards">
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Back To School</h1>
+                    <img src="/images/kids-back-to-school.PNG" alt="Kid's Back To School">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Schoolbags</h1>
+                    <img src="/images/kids-schoolbags.PNG" alt="Kid's Schoolbags">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">School Jackets</h1>
+                    <img src="/images/kids-school-jackets.PNG" alt="Kid's School Jackets">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">School Trainers</h1>
+                    <img src="/images/kids-school-trainers.PNG" alt="Kid's School Trainers">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Summer Shop</h1>
+                    <img src="/images/kids-summer-shop.PNG" alt="Kid's Summer Shop">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Slides</h1>
+                    <img src="/images/kids-slides.PNG" alt="Kid's Slides">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">All White Footwear</h1>
+                    <img src="/images/kids-all-white-footwear.PNG" alt="Kid's All White Footwear">
+                    <p>Shop Now</p>
+                </div>
+                <div class="categories-slider-cards">
+                    <h1 class="categories-cards-title">Accessories</h1>
+                    <img src="/images/kids-accessories.PNG" alt="Kid's Accessories">
+                    <p>Shop Now</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="just-landed-shop-section">
+        <div id="just-landed-shop-title">
+            <h1>Just Landed</h1>
+            <p>At Footasylum</p>
+        </div>
+        <div id="just-landed-categories-chooser">
+            <button class="just-landed-categories-btn" id="mens-just-landed-categories-btn">Men's</button>
+            <button class="just-landed-categories-btn" id="womens-just-landed-categories-btn">Women's</button>
+            <button class="just-landed-categories-btn" id="kids-just-landed-categories-btn">Kid's</button>
+        </div>
+        <div id="just-landed-cards">
+            <div class="just-landed-arrows">
+                <i class="fa-solid fa-angle-left" id="just-landed-left-arrow" onclick="justLandedSliderLeft()"></i>
+                <i class="fa-solid fa-angle-right" id="just-landed-right-arrow" onclick="justLandedSliderRight()"></i>
+            </div>
+            <div id="mens-just-landed-cards" class="just-landed-cards">
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-jordans.PNG" alt="Men's Summer Shop">
+                    <p class="product-title">Jordan</p>
+                    <p class="product-desc">Jordan 1 Mid Trainer</p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-adidas-shirt.PNG" alt="Men's Summer Shop">
+                    <p class="product-title">adidas Originals</p>
+                    <p class="product-desc">ADV Mountain T-Shirt</p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-adidas-short.PNG" alt="Men's Summer Shop">
+                    <p class="product-title">adidas Originals</p>
+                    <p class="product-desc">Adicolor Essentials Trefoil Shirt</p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-nike-slides.PNG" alt="Men's Summer Shop">
+                    <p class="product-title">Nike</p>
+                    <p class="product-desc">Victori One SLide</p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-northface-hats.PNG" alt="Men's Summer Shop">
+                    <p class="product-title">The North Face</p>
+                    <p class="product-desc">Cypress Bucket Hat</p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-adidas-gazelle.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-mercier-top.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-mercier-pants.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-on-cap.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-hoodrich-top.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-mercier-top-white.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-zavetti.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-crocs.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-beghaus-top.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-crease-guards.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+                <div class="just-landed-slider-cards">
+                    <img src="/images/mens-zavetti-cap.PNG" alt="Men's Summer Shop">
+                    <p class="product-title"></p>
+                    <p class="product-desc"></p>
+                    <p class="product-price"></p>
+                </div>
+            </div>
+            <div id="womens-just-landed-cards" class="just-landed-cards">
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-mercier-jacket.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-converse.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-nike-black.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-florena-dress.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-missyempire-pants.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-tommyjeans-top.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-newbalance-trainers.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-mercier-hoodie.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-mercier-shorts.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-crocs.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-adidas-hat.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-calvinklein-trainers.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-adidas-backpack.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-nike-dress.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-missyempire-pants-pink.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-converse-grey.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-nike-dress-grey.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-nike-socks.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-mercier-sweatshirt.PNG" alt="Men's Summer Shop">
+            </div>
+            <div class="just-landed-slider-cards">
+                <img src="/images/womens-mercier-pants.PNG" alt="Men's Summer Shop">
+            </div>
+    </div>
+    <div id="kids-just-landed-cards" class="just-landed-cards">
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-montirex-tshirt.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-vans-trainers.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-nike-hoodie.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-adidas-ozwego.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-nike-tracksuit.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-underarmour-top.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-jordan-socks.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-nike-airforce.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-nike-hoodie-red.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-montirex-tshirt-white.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-adidas-ozwego-white.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-nike-tshirt.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-northface-shorts.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-nike-hoodie-green.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-converse-trainers.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-nike-waffle.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-montirex-tshirt-blue.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-nike-airforce-white.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/kids-crocs.PNG" alt="Men's Summer Shop">
+        </div>
+        <div class="just-landed-slider-cards">
+            <img src="/images/womens-mercier-pants.PNG" alt="Men's Summer Shop">
+        </div>
+    </div>
+    </section>
+    <section id="shop-by-brand">
+        <div id="shop-by-brand-header">
+            <p>Shop By Brand</p>
+            <p>View All Brands</p>
+        </div>
+        <div id="shop-by-brand-list">
+            <img src="/images/nike-brand-logo.PNG" alt="Nike Logo">
+            <img src="/images/kickers-brand-logo.PNG" alt="Kickers Logo">
+            <img src="/images/monterrain-brand-logo.PNG" alt="Monterrain Logo">
+            <img src="/images/northface-brand-logo.PNG" alt="North Face Logo">
+            <img src="/images/addidas-brand-logo.PNG" alt="Adidas Logo">
+            <img src="/images/jordan-brand-logo.PNG" alt="Jordan Logo">
+            <img src="/images/newbalance-brand-logo.PNG" alt="New Balance Logo">
+            <img src="/images/underarmour-brand-logo.PNG" alt="Under Armour Logo">
+        </div>
+    </section>
+    <section id="trending-section">
+        <div id="trending-header">
+            <h1>TRENDING</h1>
+            <p>At Footasylum</p>
+        </div>
+        <div id="trending-banner">
+            <div class="trending-images">
+                <img src="/images/dripmade.PNG" alt="">
+                <button class="shop-now-btn">Shop Now</button>
+            </div>
+            <div class="trending-images">
+                <img src="/images/adidas-trending.PNG" alt="">
+                <button class="shop-now-btn">Shop Now</button>
+            </div>
+            <div class="trending-images">
+                <img src="/images/mercier-trending.PNG" alt="">
+                <button class="shop-now-btn">Shop Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="lowdown-section">
+        <div id="lowdown-header">
+            <img src="/images/thelowdown-logo.PNG" alt="The Lowdown Logo">
+            <p>Style, inspiration, launches & more</p>
+        </div>
+        <div class="lowdown-arrows">
+            <i class="fa-solid fa-angle-left" id="lowdown-left-arrow" onclick="lowdownSliderLeft()"></i>
+            <i class="fa-solid fa-angle-right" id="lowdown-right-arrow" onclick="lowdownSliderRight()"></i>
+        </div>
+        <div id="lowdown-articles">
+            <div class="lowdown-blog">
+                <img src="/images/crocs-lowdown.PNG" alt="">
+                <div class="lowdown-text">
+                    <p class="lowdown-title">The Lowdown On Crocs</p>
+                    <p class="lowdown-subheading">We've got a crush on the all-new Crocs.</p>
+                    <p class="lowdown-readmore">Read more</p>
+                </div>
+            </div>
+            <div class="lowdown-blog">
+                <img src="/images/back-to-school-lowdown.PNG" alt="">
+                <div class="lowdown-text">
+                    <p class="lowdown-title">Back to School: The School Shoe Edit</p>
+                    <p class="lowdown-subheading">The best school shoes for 2022.</p>
+                    <p class="lowdown-readmore">Read more</p>
+                </div>
+            </div>
+            <div class="lowdown-blog">
+                <img src="/images/kickers-lowdown.PNG" alt="">
+                <div class="lowdown-text">
+                    <p class="lowdown-title">Spotlight On: Kickers</p>
+                    <p class="lowdown-subheading">Get back to school ready!</p>
+                    <p class="lowdown-readmore">Read more</p>
+                </div>
+            </div>
+            <div class="lowdown-blog">
+                <img src="/images/adidas-lowdown.PNG" alt="">
+                <div class="lowdown-text">
+                    <p class="lowdown-title">New in adidas Originals</p>
+                    <p class="lowdown-subheading">Upgrade your wardrobe.</p>
+                    <p class="lowdown-readmore">Read more</p>
+                </div>
+            </div>
+            <div class="lowdown-blog">
+                <img src="/images/back-to-school-lowdown-2.PNG" alt="">
+                <div class="lowdown-text">
+                    <p class="lowdown-title">Back to School: The School Bag Edit</p>
+                    <p class="lowdown-subheading">Essential school backpacks.</p>
+                    <p class="lowdown-readmore">Read more</p>
+                </div>
+            </div>
+            <div class="lowdown-blog">
+                <img src="/images/cargo-pants-lowdown.PNG" alt="">
+                <div class="lowdown-text">
+                    <p class="lowdown-title">Women's Cargo Pants</p>
+                    <p class="lowdown-subheading">Y2K called - cargo pants are back!</p>
+                    <p class="lowdown-readmore">Read more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="info-section">
+        <div id="info-articles">
+            <div class="info-blog">
+                <img src="/images/unidays.PNG" alt="Unidays">
+                <div class="info-text">
+                    <p class="info-title">Students!<br>Get 10% Off.</p>
+                    <p class="info-subheading">That's right, students can benefit from 10% Student Discount - and it couldn't be easier.</p>
+                    <button class="info-btn">Get your 10% Discount</button>
+                </div>
+            </div>
+            <div class="info-blog">
+                <img src="/images/store-finder.PNG" alt="Unidays">
+                <div class="info-text">
+                    <p class="info-title">Find your nearest store!</p>
+                    <p class="info-subheading store-finder">Shop the biggest brands on your doorstep! Find your local store and check opening hours.</p>
+                    <button class="info-btn">Find your nearest store</button>
+                </div>
+            </div>
+            <div class="info-blog">
+                <img src="/images/delivery.PNG" alt="Unidays">
+                <div class="info-text">
+                    <p class="info-title">Priority UK Delivery for a year for £9.99</p>
+                    <p class="info-subheading">Subscribe to FA UN-LTD for £9.99 and get unlimited priority delivery for a year.</p>
+                    <button class="info-btn">Find out more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="app-section">
+        <div id="app-text">
+            <p id="app-title">Download our App</p>
+            <p id="app-subheading">Get your sneaker fix anytime, anywhere with the Footasylum app.</p>
+        </div>
+        <div id="app-logos">
+            <img src="/images/apple-store-logo.PNG" alt="App Store">
+            <img src="/images/google-play-logo.PNG" alt="Google Play">
+        </div>
+    </section>
+    <section id="links-section">
+        <div id="footer-links-div">
+        <ul class="footer-links">
+            <li class="link-title"> <i class="footer-icon fa-solid fa-circle-info"></i>Customer Help</li>
+            <li class="links-tag">Contact Us</li>
+            <li class="links-tag">Delivery</li>
+            <li class="links-tag">Returns</li>
+            <li class="links-tag">Help & FAQs</li>
+            <li class="links-tag">Store Finder</li>
+            <li class="links-tag">Size Guide</li>
+        </ul>
+        <ul class="footer-links">
+            <li class="link-title"><i class="footer-icon fa-solid fa-file-lines"></i>Useful Info</li>
+            <li class="links-tag">About Footasylum</li>
+            <li class="links-tag">Modern Slavery Act</li>
+            <li class="links-tag">Gender Pay Statement</li>
+            <li class="links-tag">Tax Strategy</li>
+            <li class="links-tag">Sustainability</li>
+        </ul>
+        <ul class="footer-links">
+            <li class="link-title"><i class="footer-icon fa-solid fa-briefcase"></i>Student</li>
+            <li class="links-tag">Student Discount</li>
+        </ul>
+        <ul class="footer-links">
+            <li class="link-title"><i class="footer-icon fa-solid fa-layer-group"></i>Other</li>
+            <li class="links-tag">Careers</li>
+            <li class="links-tag">Affiliates</li>
+        </ul>
+    </div>
+    <div id="footer-links-bottom">
+        <div id="payment-methods">
+            <p class="link-title">Payment methods we accept</p>
+            <img src="/images/card-options.PNG" alt="Card Payments">
+        </div>
+        <div id="keep-updated-box">
+            <p id="keep-updated-title"><i class=" footer-icon fa-solid fa-envelope"></i>Keep Updated</p>
+            <p id="keep-updated-subheading">Sign up for news, launches & offers</p>
+            <div id="keep-updated-input">
+                <input type="text" placeholder="Email Address" id="keep-updated-input-box">
+                <button type="submit" id="keep-updated-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div id="copyright-div">
+            <p>&copy; 2022 Footasylum ltd</p>
+            <ul id="copyright-links">
+                <li>Terms</li>
+                <li>Privacy Policy</li>
+                <li>Cookie Policy</li>
+                <li>Complaints</li>
+            </ul>
+        </div>
+    </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
