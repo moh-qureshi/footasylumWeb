@@ -28,7 +28,6 @@ body{
     list-style: none;
     display: flex;
     font-size: 15px;
-    
 }
 
 #header-links li a{
@@ -99,7 +98,7 @@ nav{
     justify-content: space-between;
     list-style: none;
     width: 70%;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .link{
@@ -539,7 +538,7 @@ nav{
 }
 
 .latest-cards{
-    background: linear-gradient(black, silver);
+    background: linear-gradient(rgb(59, 57, 57), silver);
     margin: 0 5px;
     color: rgb(255, 255, 255, 0.7);
 }
@@ -570,8 +569,8 @@ nav{
     padding: 10px 117.4px;
     border: none;
     font-size: 18px;
-    background-color: rgb(0, 0, 0, 0.5);
-    color: greenyellow;
+    background-color: rgb(0, 0, 0, 0.2);
+    color: rgb(173, 255, 47);
 }
 
 #categories-header{
@@ -1068,3 +1067,64 @@ footer{
         transform: translateX(0px);
     }
 }
+
+@media screen and (max-width: 850px) {
+    body{
+        width: 820px;
+    }
+   #header-links{
+    font-size: 10px;
+    width: 600px;
+   }
+
+   #header-links li a{
+    margin: 0 5px;
+   }
+   
+   #search-box{
+    width: 140px;
+    margin-left: 10px;
+    border: 1px solid black; 
+   }
+   
+   #view-basket{
+    width: 200px;
+    margin-left: 10px;
+   }
+
+   #nav-links{
+    width: 95%;
+    font-size: 14px;
+   }
+
+   .dropdown-links li{
+    font-size: 10px;
+   }
+
+   #just-landed-image, #outlet-image, #men-image, #women-image, #kids-image{
+    height: 300px;
+   }
+
+   #men-image{
+    height: 200px;
+    width: 200px;
+   }
+
+   #sub-nav{
+    padding: 20px 5px;
+    font-size: 12px;
+   }
+
+   #cards-section{
+    font-size: 10px;
+   }
+   .cards img{
+    height: 175px;
+   }
+   #discount-text h1{
+    font-size: 30px;
+   }
+   .banner-card img{
+    width: 820px;
+   }
+  }
