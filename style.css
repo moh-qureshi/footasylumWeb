@@ -913,7 +913,6 @@ nav{
 #footer-links-bottom{
     display: flex;
     justify-content: space-between;
-    width: 82.5em;
 }
 
 #keep-updated-box{
@@ -957,7 +956,7 @@ nav{
 }
 
 #payment-methods{
-    margin-left: 13.75em;
+    margin: 40px;
 }
 
 .show{
@@ -1157,7 +1156,8 @@ footer{
    .shop-now-btn{
     font-size: 12px;
    }
-   .lowdown-blog img{
+   .lowdown-blog img, .info-blog img{
     width: 260px;
+    height: 150px;
    } 
   }
