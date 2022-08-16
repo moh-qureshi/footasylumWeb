@@ -531,10 +531,6 @@ nav{
     font-size: 0.9em;
 }
 
-#latest-unidays span{
-    font-size: 1.56em;
-}
-
 #latest-images{
     display: flex;
     justify-content: space-between;
@@ -1159,5 +1155,8 @@ footer{
    .lowdown-blog img, .info-blog img{
     width: 260px;
     height: 150px;
-   } 
+   }
+   #latest-unidays{
+    font-size: 10px;
+    } 
   }
