@@ -590,7 +590,7 @@ function navbarHover(){
 let bannerScrolled = 0
 function moveBanner(){
     if(bannerScrolled !== 4080){
-        bannerScrolled += 1360
+        bannerScrolled += window.outerWidth
         bannerSlider.scrollTo(bannerScrolled, 0)
     } else if(bannerScrolled === 4080){
         bannerScrolled = 0
@@ -598,12 +598,13 @@ function moveBanner(){
     }
 }
 
+
 function bannerSliderLeft(){
     if(bannerScrolled === 0){
         bannerScrolled += 4080
         bannerSlider.scrollTo(bannerScrolled, 0)
     } else if(bannerScrolled !== 0){
-        bannerScrolled -= 1360
+        bannerScrolled -= window.outerWidth
         bannerSlider.scrollTo(bannerScrolled, 0)
     }
 }

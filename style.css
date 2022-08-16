@@ -10,7 +10,7 @@ body{
 }
 
 #header{
-    padding: 26px;
+    padding: 1.6em;
     background-color: white;
 }
 
@@ -21,17 +21,17 @@ body{
 }
 
 #footasylum-header-logo{
-    height: 50px;
+    height: 3.1em;
 }
 
 #header-links{
     list-style: none;
     display: flex;
-    font-size: 15px;
+    font-size: 0.9em;
 }
 
 #header-links li a{
-    margin: 0 20px;
+    margin: 0 1.2em;
     text-decoration: none;
     color: black;
 }
@@ -42,29 +42,29 @@ body{
 
 #search-section{
     display: flex;
-    width: 340px;
+    width: 21.25em;
 }
 
 #search-box{
-    height: 48px;
-    font-size: 20px;
-    padding: 0 10px;
-    margin-right: 20px;
+    height: 3em;
+    font-size: 1.2em;
+    padding: 0 0.6em;
+    margin-right: 1.2em;
 }
 
 #search-btn{
     visibility: collapse;
-    height: 48px;
+    height: 3em;
     width: 0px;
     font-size: 0px;
 }
 
 #view-basket{
     display: flex;
-    width: 100px;
+    width: 6.25em;
     align-items: center;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 0.9em;
 }
 
 #view-basket:hover{
@@ -73,7 +73,7 @@ body{
 }
 
 .header-icon{
-    font-size: 22px;
+    font-size: 1.37em;
 }
 
 .search-button-show{
@@ -90,7 +90,7 @@ nav{
     display: flex;
     justify-content: center;
     background-color: black;
-    padding: 20px 0;
+    padding: 1.2em 0;
 }
 
 #nav-links{
@@ -98,17 +98,17 @@ nav{
     justify-content: space-between;
     list-style: none;
     width: 70%;
-    font-size: 15px;
+    font-size: 0.9em;
 }
 
 .link{
-    padding: 16px;
+    padding: 1em;
     color: white;
     text-decoration: none;
 }
 
 .link:hover{
-    border-bottom: 5px solid white;
+    border-bottom: 0.31em solid white;
 }
 
 #just-landed{
@@ -127,10 +127,10 @@ nav{
 #just-landed-dropdown, #sale-dropdown, #outlet-dropdown, #men-dropdown, #women-dropdown, #kids-dropdown{
     display: none;
     background-color: #ebebeb;
-    height: 0px;
+    height: 0em;
     visibility: collapse;
     position: relative;
-    bottom: 40px;
+    bottom: 2.5em;
 }
 
 .dropdown-show{
@@ -147,14 +147,14 @@ nav{
 #just-landed-sections, #sale-sections, #outlet-sections, #men-sections, #women-sections, #kids-sections{
     display: flex;
     justify-content: space-between;
-    width: 1400px;
-    padding: 26px;
+    width: 87.5em;
+    padding: 1.6em;
     visibility: collapse;
 }
 
 #brands-dropdown{
     position: relative;
-    bottom: 40px;
+    bottom: 2.5em;
     visibility: collapse;
     display: none;
 }
@@ -168,9 +168,9 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: lightgray;
-    height: 500px;
-    width: 500px;
-    padding: 0 80px;
+    height: 31.25em;
+    width: 31.25em;
+    padding: 0 5em;
 }
 
 #brands-section-two{
@@ -185,8 +185,8 @@ nav{
 }
 
 .dropdown-links li{
-    padding: 2px 0;
-    font-size: 14px;
+    padding: 0.12em 0;
+    font-size: 0.87em;
 }
 
 .dropdown-links li:hover{
@@ -194,31 +194,31 @@ nav{
 }
 
 .dropdown-link-title{
-    margin-bottom: 15px;
+    margin-bottom: 0.9em;
     font-weight: bolder;
 }
 
 .dropdown-view-all{
-    margin-top: 15px;
+    margin-top: 0.9em;
     font-weight: bolder;   
 }
 
 #just-landed-img, #sale-img, #outlet-img, #men-img, #women-img, #kids-img{
-    margin: 20px;
+    margin: 1.2em;
     visibility: collapse;
 }
 
 #just-landed-image, #outlet-image, #men-image, #women-image, #kids-image{
-    height: 450px;
+    height: 28.12em;
 }
 
 .shop-now-btn{
     position: relative;
-    bottom: 70px;
-    margin-left: 20px;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
+    bottom: 4.37em;
+    margin-left: 1.2em;
+    width: 9.37em;
+    height: 3.1em;
+    font-size: 1.2em;
     outline: none;
     border: none;
     background-color: rgb(255, 255, 255, 0.7);
@@ -230,8 +230,8 @@ nav{
 }
 
 #sale-img-section{
-    height: 450px;
-    width: 310px;
+    height: 28.12em;
+    width: 19.37em;
     background-color: greenyellow;
 }
 
@@ -243,18 +243,18 @@ nav{
 
 .sale-text{
     width: fit-content;
-    margin: 10px 0;
-    padding: 10px ;
+    margin: 0.62em 0;
+    padding: 0.62em ;
     background-color: black;
     color: white;
 }
 
 #sale-title{
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 #sale-heading{
-    font-size: 38px;
+    font-size: 2.37em;
 }
 
 .row{
@@ -265,15 +265,15 @@ nav{
 
 
 #alphabet h1{
-    margin: 30px 0;
+    margin: 1.87em 0;
 }
 
 .alphabet-btn{
-    padding: 5px;
-    width: 40px;
-    font-size: 18px;
+    padding: 0.31em;
+    width: 2.5em;
+    font-size: 1.12em;
     background-color: white;
-    border: 1px solid silver;
+    border: 0.06em solid silver;
 }
 
 .alphabet-btn:hover{
@@ -286,8 +286,8 @@ nav{
 .brands-list{
     display: flex;
     justify-content: space-between;
-    width: 300px;
-    margin-top: 30px;
+    width: 18.75em;
+    margin-top: 1.87em;
 }
 
 .brands-text, .brands-text a{
@@ -297,19 +297,19 @@ nav{
 }
 
 .brands-text li{
-    margin: 10px 0;
+    margin: 0.62em 0;
 }
 
 #brands-logo-slider{
     display: flex;
-    width: 700px;
+    width: 43.75em;
     overflow-x: scroll;
-    margin: 80px;
+    margin: 5em;
     scroll-behavior: smooth;
 }
 
 #brands-logo-slider div{
-    margin: 10px;
+    margin: 0.62em;
 }
 
 .brands-logo-title{
@@ -318,25 +318,25 @@ nav{
 }
 
 .brand-slider-img{
-    height: 122px;
-    width: 122px;
-    border: 5px solid transparent;
+    height: 7.62em;
+    width: 7.62em;
+    border: 0.31em solid transparent;
 }
 
 .brand-slider-img:hover{
-    border: 5px solid red;
+    border: 0.31em solid red;
     cursor: pointer;
     transition: 0.5s;
 }
 
 #brands-logo-scroller{
     float: right;
-    margin-right: 125px;
+    margin-right: 7.81em;
 }
 .scroller-btn{
-    font-size: 40px;
-    padding: 10px;
-    margin: 0 5px;
+    font-size: 2.5em;
+    padding: 0.62em;
+    margin: 0 0.31em;
     border: none;
 }
 
@@ -348,9 +348,9 @@ nav{
 }
 
 #all-brands-btn{
-    padding: 5px;
-    font-size: 20px;
-    margin: 20px 0 0 300px;
+    padding: 0.31em;
+    font-size: 1.2em;
+    margin: 1.2em 0 0 18.75em;
     background-color: black;
     color: white;
     border: none;
@@ -368,9 +368,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 30px;
-    padding: 20px 90px;
-    font-size: 15px;
+    height: 1.87em;
+    padding: 1.2em 5.62em;
+    font-size: 0.9em;
     background-color: silver;
 }
 
@@ -385,7 +385,7 @@ nav{
 #cards-section{
     display: flex;
     justify-content: space-between;
-    margin: 25px;
+    margin: 1.56em;
     text-align: center;
 }
 
@@ -405,9 +405,9 @@ nav{
     background-color: black;
     color: white;
     width: fit-content;
-    padding: 10px 20px;
-    margin: 20px 0;
-    font-size: 25px;
+    padding: 0.62em 1.2em;
+    margin: 1.2em 0;
+    font-size: 1.56em;
 }
 
 #discount-text span{
@@ -415,12 +415,12 @@ nav{
 }
 
 #discount-section p{
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin-bottom: 1.2em;
+    font-size: 1.2em;
 }
 
 #banner-section{
-    margin: 20px 0;
+    margin: 1.2em 0;
 }
 
 #banner-slider{
@@ -432,15 +432,14 @@ nav{
 .banner-arrows{
     display: flex;
     justify-content: space-between;
-    width: 1350px;
-    font-size: 50px;
+    font-size: 3.1em;
     position: relative;
-    top: 225px;
+    top: 250px;
 }
 
 .banner-arrows i, .categories-arrows i{
-    margin: 0 10px;
-    padding: 5px 20px;
+    margin: 0 0.62em;
+    padding: 0.31em 1.2em;
     border-radius: 100%;
     background-color: rgb(255, 255, 255, 0.5);
     color: rgb(0, 0, 0, 0.5);
@@ -454,11 +453,11 @@ nav{
 }
 
 .banner-btn{
-    padding: 10px;
-    font-size: 18px;
+    padding: 0.62em;
+    font-size: 1.12em;
     position: relative;
-    left: 625px;
-    bottom: 60px;
+    left: 39.06em;
+    bottom: 3.75em;
     border: none;
     background-color: rgb(0, 0, 0, 0.5);
     color: greenyellow;
@@ -472,8 +471,8 @@ nav{
 }
 
 .banner-img{
-    height: 400px;
-    width: 1360px;
+    height: 25em;
+    width: 85em;
 }
 
 #back-to-school-section{
@@ -485,17 +484,23 @@ nav{
 }
 
 .back-to-school-banner-images img{
-    margin: 0 5px;
+    margin: 0 0.31em;
+    width: 50%;
+    height: 90%;
 }
 
 #back-to-school-logo{
-    width: 240px;
+    width: 15em;
     text-align: center;
 }
 
+#back-to-school-logo img{
+    width: 90%;
+}
+
 #back-to-school-btn{
-    padding: 10px;
-    font-size: 18px;
+    padding: 0.62em;
+    font-size: 1.12em;
     border: none;
     background-color: rgb(0, 0, 0, 0.5);
     color: greenyellow;
@@ -504,42 +509,42 @@ nav{
 #latest-section{
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 3.1em 0;
 }
 
 #latest-title{
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 0.62em;
 }
 
 #latest-title-text h1{
-    font-size: 30px;
+    font-size: 1.87em;
     text-transform: uppercase;
-    margin-bottom: 10px;    
+    margin-bottom: 0.62em;    
 }
 
 #latest-unidays{
-    padding: 5px;
-    height: 40px;
+    padding: 0.31em;
+    height: 2.5em;
     background-color: lightgreen;
-    font-size: 15px;
+    font-size: 0.9em;
 }
 
 #latest-unidays span{
-    font-size: 25px;
+    font-size: 1.56em;
 }
 
 #latest-images{
     display: flex;
-    width: 1350px;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 1.2em 0;
 }
+
 
 .latest-cards{
     background: linear-gradient(rgb(59, 57, 57), silver);
-    margin: 0 5px;
+    margin: 0 0.31em;
     color: rgb(255, 255, 255, 0.7);
 }
 
@@ -550,32 +555,32 @@ nav{
 }
 
 .latest-cards-title{
-    margin: 15px;
-    font-size: 30px;
+    margin: 0.9em;
+    font-size: 1.87em;
 }
 
 .latest-cards p{
-    margin: 15px;
+    margin: 0.9em;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .latest-cards img{
-    height: 200px;
-    margin:  60px 0;
+    height: 12.5em;
+    margin: 3.75em 0;
 }
 
 .latest-cards-btn{
-    padding: 10px 117.4px;
+    padding: 0.62em 7.33em;
     border: none;
-    font-size: 18px;
+    font-size: 1.12em;
     background-color: rgb(0, 0, 0, 0.2);
     color: rgb(173, 255, 47);
 }
 
 #categories-header{
     display: flex;
-    margin: 0 10px;
+    margin: 0 0.62em;
 }
 
 #categories-title h1, #just-landed-shop-title h1{
@@ -584,10 +589,10 @@ nav{
 }
 
 .categories-btn, .just-landed-categories-btn{
-    width: 150px;
-    padding: 20px;
-    margin: 0 10px;
-    font-size: 15px;
+    width: 9.37em;
+    padding: 1.2em;
+    margin: 0 0.62em;
+    font-size: 0.9em;
     border: none;
     background-color: #ebebeb;
 }
@@ -605,7 +610,7 @@ nav{
 }
 
 #categories-chooser{
-    width: 600px;
+    width: 37.5em;
     display: flex;
     justify-content: space-evenly;
 }
@@ -613,13 +618,13 @@ nav{
 
 #mens-categories-cards, #womens-categories-cards, #kids-categories-cards, #mens-just-landed-cards, #womens-just-landed-cards, #kids-just-landed-cards{
     display: flex;
-    height: 520px;
+    height: 550px;
     overflow: hidden;
     scroll-behavior: smooth;
 }
 
 .categories-slider-cards{
-    margin: 0 5px;
+    margin: 0 0.31em;
 }
 
 .categories-slider-cards:hover{
@@ -627,24 +632,24 @@ nav{
 }
 
 .categories-slider-cards img{
-    height: 450px;
+    height: 28.12em;
 }
 
 .categories-slider-cards p{
-    padding: 0 10px;
-    font-size: 30px;
+    padding: 0 0.62em;
+    font-size: 1.87em;
     font-weight: bold;
     position: relative;
-    bottom: 38.5px;
+    bottom: 2.40em;
     background-color: rgb(255, 255, 255, 0.3);
     color: rgb(0, 0, 0, 0.7);
 }
 
 .categories-cards-title{
-    padding: 0 10px;
-    font-size: 30px;
+    padding: 0 0.62em;
+    font-size: 1.87em;
     position: relative;
-    top: 37px;
+    top: 2.31em;
     background-color: rgb(255, 255, 255, 0.3);
     color: rgb(0, 0, 0, 0.7);
 }
@@ -652,31 +657,29 @@ nav{
 .categories-arrows{
     display: flex;
     justify-content: space-between;
-    width: 1350px;
-    font-size: 50px;
+    font-size: 3.1em;
     position: relative;
     top: 300px;
 }
 
 #just-landed-shop-title{
     text-align: center;
-    margin: 30px 0 ;
+    margin: 1.87em 0;
 }
 
 #just-landed-categories-chooser{
     display: flex;
     justify-content: center;
-    margin-top: 30px; 
+    margin-top: 1.87em; 
 }
 
 .just-landed-arrows{
     display: flex;
     justify-content: space-between;
-    width: 1350px;
-    padding: 0 20px;
-    font-size: 50px;
+    padding: 0 1.25em;
+    font-size: 3.1em;
     position: relative;
-    top: 200px;
+    top: 220px;
 }
 
 .fa-angle-left:hover, .fa-angle-right:hover{
@@ -688,16 +691,16 @@ nav{
 }
 
 .just-landed-slider-cards{
-    margin: 0 10px;    
+    margin: 0 0.62em;    
 }
 
 .just-landed-slider-cards img{
-    height: 335px;
-    width: 250px;
+    height: 20.93em;
+    width: 15.62em;
 }
 
 .product-title{
-    margin: 10px 0;
+    margin: 0.62em 0;
     font-weight: 600;
     color: gray;
 }
@@ -709,13 +712,13 @@ nav{
 #shop-by-brand{
     background-color: black;
     color: white;
-    padding: 15px 0;
+    padding: 0.9em 0;
 }
 
 #shop-by-brand-header{
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 0.62em 1.25em;
 }
 
 #shop-by-brand-list{
@@ -725,7 +728,7 @@ nav{
 }
 
 #shop-by-brand-list img{
-    height: 170px;
+    height: 10.62em;
 }
 
 #shop-by-brand-list img:hover{
@@ -733,12 +736,12 @@ nav{
 }
 
 #trending-header{
-    margin: 30px 10px;
+    margin: 1.87em 0.62em;
 }
 
 #trending-banner img{
-    height: 590px;
-    margin: 0 10px;
+    height: 36.87em;
+    margin: 0 0.62em;
 }
 
 #trending-banner{
@@ -748,7 +751,7 @@ nav{
 
 .trending-images button{
     float: right;
-    margin: 0 20px;
+    margin: 0 1.25em;
 }
 
 #lowdown-header{
@@ -756,7 +759,7 @@ nav{
 }
 
 #lowdown-header p{
-    margin: 20px 0;
+    margin: 1.25em 0;
     color: grey;
 }
 
@@ -767,7 +770,7 @@ nav{
 }
 
 .lowdown-blog{
-    margin: 0 7px;
+    margin: 0 0.43em;
     background-color: #dfdfdf;
 }
 
@@ -776,23 +779,23 @@ nav{
 }
 
 .lowdown-blog img, .info-blog img{
-    width: 435px;
-    height: 250px;
+    width: 27.18em;
+    height: 15.62em;
 }
 
 .lowdown-text{
-    padding: 20px;
+    padding: 1.25em;
 }
 
 .lowdown-title{
     font-weight: bold;
     color: gray;
-    margin: 10px 0;
+    margin: 0.62em 0;
 }
 
 .lowdown-subheading{
     color: grey;
-    margin-bottom: 30px;
+    margin-bottom: 1.87em;
 }
 
 .lowdown-readmore{
@@ -802,66 +805,64 @@ nav{
 .lowdown-arrows{
     display: flex;
     justify-content: space-between;
-    width: 1350px;
-    padding: 0 20px;
-    font-size: 50px;
+    padding: 0 0.62em;
+    font-size: 3.1em;
     position: relative;
-    top: 250px;
+    top: 200px;
 }
 
 #info-articles{
     display: flex;
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 .info-text{
-    width: 435px;
     text-align: center;
 }
 
 .info-blog{
-    margin: 0 7px;
+    margin: 0 0.43em;
     background-color: #dfdfdf;
 }
 
 .info-title{
-    font-size: 25px;
+    font-size: 1.56em;
     font-weight: bold;
-    margin:  20px 0;
+    margin:  1.25em 0;
     color: grey;
 }
 
 .info-subheading{
     color: grey;
-    margin-bottom: 30px;
+    margin-bottom: 1.87em;
 }
 
 .store-finder{
-    margin-top: 50px;
+    margin-top: 3.1em;
 }
 
 .info-btn{
-    padding: 10px 30px;
-    font-size: 15px;
+    padding: 0.62em 1.87em;
+    font-size: 0.9em;
     border: none;
     background-color: black;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 1.87em;
 }
 
 #app-section{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 3.1em;
     background-color: #dfdfdf;
 }
 
 #app-text{
-    padding: 30px 0;
+    padding: 1.87em 0;
 }
 
 #app-title{
-    margin: 30px 0;
-    font-size: 35px;
+    margin: 1.87em 0;
+    font-size: 2.18em;
     font-weight: bold;
 }
 
@@ -870,34 +871,33 @@ nav{
 }
 
 #app-logos img{
-    width: 150px;
-    height: 50px;
-    margin: 0 10px 30px 10px;
-
+    width: 9.37em;
+    height: 3.1em;
+    margin: 0 0.62em 1.87em 0.62em;
 }
 
 #footer-links-div{
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 1.25em 0;
 }
 
 .footer-icon{
-    margin-right: 10px;
+    margin-right: 0.62em;
 }
 
 .footer-links{
-    padding: 30px 50px;
+    padding: 1.87em 3.1em;
     list-style: none;
-    font-size: 18px;
+    font-size: 1.12em;
     display: flex;
     flex-direction: column;
 }
 
 .link-title{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 .links-tag{
@@ -913,39 +913,39 @@ nav{
 #footer-links-bottom{
     display: flex;
     justify-content: space-between;
-    width: 1320px;
+    width: 82.5em;
 }
 
 #keep-updated-box{
     background-color: #dfdfdf;
     position: relative;
-    bottom: 40px;
+    bottom: 2.5em;
 }
 
 #keep-updated-title{
     font-weight: bold;
-    margin: 20px;
+    margin: 1.25em;
 }
 
 #keep-updated-subheading{
-    margin: 20px;
-    font-size: 13px;
+    margin: 1.25em;
+    font-size: 0.81em;
 }
 
 #keep-updated-input{
-    margin: 20px;
+    margin: 1.25em;
 }
 
 #keep-updated-input-box{
-    padding: 5px;
-    font-size: 14px;
-    border: 1px solid grey;
+    padding: 0.31em;
+    font-size: 0.87em;
+    border: 0.06em solid grey;
 }
 
 #keep-updated-btn{
-    padding: 5px 7px;
-    font-size: 14px;
-    border: 1px solid grey;
+    padding: 0.31em 0.43em;
+    font-size: 0.87em;
+    border: 0.06em solid grey;
 }
 
 #keep-updated-input-box:focus{
@@ -953,11 +953,11 @@ nav{
 }
 
 #keep-updated-btn:hover{
-    cursor: pointer;
+    cursor: pointer
 }
 
 #payment-methods{
-    margin-left: 220px;
+    margin-left: 13.75em;
 }
 
 .show{
@@ -979,22 +979,22 @@ footer{
 
 #copyright-div{
     display: flex;
-    font-size: 12px;
-    padding: 20px 0;
+    font-size: 0.75em;
+    padding: 1.25em 0;
 }
 
 #copyright-div p{
-    margin: 0 20px;
+    margin: 0 1.25em;
 }
 
 #copyright-links{
-    margin-left: 300px;
+    margin-left: 18.75em;
     display: flex;
     list-style: none;
 }
 
 #copyright-links li{
-    margin: 0 20px;
+    margin: 0 1.25em;
 }
 
 #copyright-links li:hover, #copyright-div p:hover{
@@ -1009,14 +1009,14 @@ footer{
     }
     100%{
         visibility: initial;
-        font-size: 18px;
-        width: 50px;
+        font-size: 1.12em;
+        width: 3.1em;
     }
 }
 @keyframes search-button-hide {
     0%{
         visibility: initial;
-        width: 50px;
+        width: 3.1em;
     }
     100%{
         visibility: collapse;
@@ -1078,13 +1078,13 @@ footer{
    }
 
    #header-links li a{
-    margin: 0 5px;
+    margin: 0 0.31em;
    }
    
    #search-box{
     width: 140px;
     margin-left: 10px;
-    border: 1px solid black; 
+    border: 0.06em solid black; 
    }
    
    #view-basket{
@@ -1102,7 +1102,7 @@ footer{
    }
 
    #just-landed-image, #outlet-image, #men-image, #women-image, #kids-image{
-    height: 300px;
+    height: 18.75em;
    }
 
    #men-image{
@@ -1122,9 +1122,42 @@ footer{
     height: 175px;
    }
    #discount-text h1{
-    font-size: 30px;
+    font-size: 1.87em;
    }
    .banner-card img{
     width: 820px;
    }
+   .latest-cards{
+    width: 175px;
+   }
+   .latest-cards img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+   }
+   .latest-cards-title{
+    font-size: 15px;
+   }
+   .latest-cards p{
+    font-size: 12px;
+   }
+   .latest-cards-btn{
+    font-size: 10px;
+    padding: 10px 62px;
+   }
+   #shop-by-brand-list{
+    margin-left: 20px;
+   }
+   #shop-by-brand-list img{
+    height: 100px;
+   }
+   #trending-banner img{
+    height: 350px;
+   }
+   .shop-now-btn{
+    font-size: 12px;
+   }
+   .lowdown-blog img{
+    width: 260px;
+   } 
   }
